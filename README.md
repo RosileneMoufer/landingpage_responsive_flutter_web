@@ -1,16 +1,11 @@
 # landingpage
 
-A new Flutter project.
+<p>
+O site é uma landingpage responsiva, que possue 4 seções. Desenvolvendo esse projeto percebi que, dependendo do site que será desenvolvido, é mais vantagem fazê-lo em HTML, CSS e JS, principalmente por causa da responsividade. Questões que seriam mais facilmente adaptadas com HTML e CSS, como transformar uma linha em coluna (apenas mudadndo a propriedade flex-direction de row para column), em Flutter tive que criar uma Row e uma Column dependendo do tamanho da tela.
+</p>
 
-## Getting Started
+<p>
+Para gera o efeito hover no menu, utilizei MouseRegion com as funções onEnter(event) e onExit(event), assim eu alterava o valor da variável de cor para que o background do TextButton fosse alterado.
+</p>
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Veja como ficou o projeto <a href="https://rosilenemoufer.github.io/landingpage_responsive_flutter_web/#/">clicando aqui</a>.
